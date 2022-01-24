@@ -66,6 +66,48 @@ h6 {
   line-height: 24px;
 }
 
+.faqs {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #ccc;
+  margin: 84px auto 30px;
+  text-align: center;
+}
+
+.accordion-button {
+  background-color: #000;
+  color: #ccc;
+  border-color: #000;
+
+  &:focus {
+    z-index: 3;
+    border-color: #000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #f8f9fa00;
+  }
+}
+.accordion-item {
+  background-color: #000;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+  /* border: 1px solid rgba(0,0,0,.125); */
+}
+.accordion-button::after {
+  background-image: url("../../assets/image/arrow.png");
+}
+.accordion-button:not(.collapsed) {
+  color: #e2be6f;
+  background-color: #000;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/image/up.svg");
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
 // .footer {
 //   max-width: 1024px;
 //   margin: auto;

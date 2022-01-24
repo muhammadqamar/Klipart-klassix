@@ -4,7 +4,12 @@ import { Accordion, Item, Header } from "react-bootstrap"
 const Faq = () => {
   return (
     <div className="container">
-      <Accordion defaultActiveKey={["0"]} alwaysOpen>
+      <h1 className="faqs">FAQs</h1>
+      <Accordion
+        defaultActiveKey={["0"]}
+        alwaysOpen
+        style={{ marginBottom: "40px" }}
+      >
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <p>2021 September (Complete!)</p>
