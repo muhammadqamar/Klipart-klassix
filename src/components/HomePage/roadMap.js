@@ -12,122 +12,83 @@ const Faq = () => {
       >
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <p>2021 September (Complete!)</p>
-            <p>(4/4)</p>
+            <h4>December 2021 </h4>
           </Accordion.Header>
           <Accordion.Body>
             <div class="collapse-content">
               <ul>
-                <li class="px-2">✅ Create the Penguins!</li>
-                <li class="px-2">✅ Create Twitter account</li>
-                <li class="px-2">✅ Stand up Discord</li>
-                <li class="px-2">✅ Discord Giveaways!</li>
+                <li class="px-2">Create the Klipart Klassix collection</li>
+                <li class="px-2">Create Discord and Twitter accounts</li>
               </ul>
             </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>2021 October (Complete!)</Accordion.Header>
+          <Accordion.Header>
+            <h4>January 2022</h4>
+          </Accordion.Header>
           <Accordion.Body>
             <div class="collapse-content">
               <ul>
-                <li class="px-2">✅ Pesky Penguins website</li>
-                <li class="px-2">✅ Reveal roadmap</li>
-                <li class="px-2">✅ Add Penguins to Candy Machine</li>
-                <li class="px-2">✅ Initial Penguin sale!</li>
-                <li class="px-2">✅ Get verified on marketplaces</li>
-                <li class="px-2">✅ The Snowball starts rolling</li>
-                <li class="px-2">✅ Discord bot for marketplace sales</li>
-                <li class="px-2">✅ Launch giveaways!</li>
-                <li class="px-2">✅ Build the Penguin Graveyard</li>
-                <li class="px-2">
-                  ✅ Implement Discord verification for Pengu holders
-                </li>
-                <li class="px-2">✅ Build Official Rarity Tool</li>
-                <li class="px-2">✅ Halloween Giveaway!</li>
+                <li class="px-2">Klipart Klassix website launch</li>
+                <li class="px-2">Reveal Roadmap</li>
+                <li class="px-2">Start marketing campaign</li>
               </ul>
             </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
-          <Accordion.Header>2021 November (Complete!)</Accordion.Header>
+          <Accordion.Header>
+            <h4>February 2022</h4>
+          </Accordion.Header>
           <Accordion.Body>
             <div class="collapse-content">
               <ul>
-                <li class="px-2">✅ Snowball Scripting</li>
-                <li class="px-2">✅ Pesky Penguin Lore</li>
-                <li class="px-2">✅ Thanksgiving giveaways!</li>
-                <li class="px-2">✅ NOOTVEMBER SPECIAL EVENT</li>
+                <li class="px-2">Ramp up marketing on Discord and Twitter</li>
+                <li class="px-2">Secure final list of Whitelist addresses</li>
+                <li class="px-2">
+                  Add Traits and finalised Klipart Klassix NFTs to Candy Machine
+                </li>
+                <li class="px-2">LAUNCH!</li>
+                <li class="px-2">
+                  Get verified on marketplaces (Magic Eden being primary
+                  exchange)
+                </li>
+                <li class="px-2">
+                  Confirm official rarities with Moonrank / Howrare
+                </li>
               </ul>
             </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
-          <Accordion.Header>2021 December (Complete!)</Accordion.Header>
+          <Accordion.Header>
+            <h4>March 2022</h4>
+          </Accordion.Header>
           <Accordion.Body>
             <div class="collapse-content">
               <ul>
-                <li class="px-2">✅ Implement Devblog</li>
-                <li class="px-2">✅ Hire Mysterious Dev</li>
-                <li class="px-2">✅ High-res artwork update (metadata v4)</li>
-                <li class="px-2">✅ Winter Solstice Giveaways</li>
-                <li class="px-2">✅ Matrica.io Discord integration</li>
+                <li class="px-2">
+                  Implement Discord verification of Klipart Klassix holders
+                </li>
+                <li class="px-2">Launch giveaways!</li>
+                <li class="px-2">Floor sniping giveaways!</li>
               </ul>
             </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
-          <Accordion.Header>2022 January (In-Progress)</Accordion.Header>
+          <Accordion.Header>
+            <h4>Q2 2022</h4>
+          </Accordion.Header>
           <Accordion.Body>
             <div class="collapse-content">
               <ul>
-                <li class="px-2">✅ NootDAO Discord integration</li>
-                <li class="px-2">✅ Metadata v5 update</li>
-                <li class="px-2">✅ Website roadmap refresh</li>
-                <li class="px-2">🟦 Incorporation</li>
-                <li class="px-2">🟦 Nootopia staking program: Devnet</li>
-                <li class="px-2">⬛️ Audit Nootopia staking program</li>
-              </ul>
-            </div>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="5">
-          <Accordion.Header>2022 February (TODO)</Accordion.Header>
-          <Accordion.Body>
-            <div class="collapse-content">
-              <ul>
-                <li class="px-2">⬛️ Nootopia staking UI: Devnet</li>
-                <li class="px-2">⬛️ Address program audit feedback</li>
-                <li class="px-2">⬛️ Nootopia Whitepaper v1</li>
-                <li class="px-2">⬛️ DEPLOY PENGUIN STAKING TO MAINNET</li>
-              </ul>
-            </div>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="6">
-          <Accordion.Header>2022 March (TODO)</Accordion.Header>
-          <Accordion.Body>
-            <div class="collapse-content">
-              <ul>
-                <li class="px-2">⬛️ Release first Nootopia land NFTs</li>
-                <li class="px-2">⬛️ Release first property upgrades</li>
-                <li class="px-2">⬛️ Allow users to mint land with $PESKY</li>
-                <li class="px-2">⬛️ Allow users to upgrade land</li>
-                <li class="px-2">⬛️ REVEAL SECRET</li>
-              </ul>
-            </div>
-          </Accordion.Body>
-        </Accordion.Item>
-        <Accordion.Item eventKey="7">
-          <Accordion.Header>FUTURE (TODO)</Accordion.Header>
-          <Accordion.Body>
-            <div class="collapse-content">
-              <ul>
-                <li class="px-2">⬛️ Release first Nootopia land NFTs</li>
-                <li class="px-2">⬛️ Release first property upgrades</li>
-                <li class="px-2">⬛️ Allow users to mint land with $PESKY</li>
-                <li class="px-2">⬛️ Allow users to upgrade land</li>
-                <li class="px-2">⬛️ REVEAL SECRET</li>
+                <li class="px-2">
+                  Complete and send out physical artwork for anyone who collects
+                  a full collection of Klipart Klassix NFTs before the end of
+                  June 2022.
+                </li>
               </ul>
             </div>
           </Accordion.Body>

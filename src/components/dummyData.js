@@ -5,22 +5,20 @@ import img3 from "../assets/image/teamPissed.png"
 export const cards = [
   {
     Auth_img: img1,
-    Auth_Name: "NFK",
-    Auth_cat: "Community / Creative Direction",
-    Auth_about:
-      "Runs the Discord. Runs the Twitter. Runs the contests. Writes the Lore. Draws Island Boiz pengus and posts them online (sorry not sorry).",
+    Auth_Name: "Woof Original",
+    Auth_cat: "Artist",
+    Auth_about: "Creator of the artwork. Beating heart of the project.",
   },
   {
     Auth_img: img2,
-    Auth_Name: "Non-Fungible Penguin",
-    Auth_cat: "Operations / Engineering",
-    Auth_about:
-      "Builds websites. Puts Penguins on the blockchain. Gravekeeper. Nootopia Architect.",
+    Auth_Name: "Monet Gone Rogue",
+    Auth_cat: "Community Manager",
+    Auth_about: "Responds to queries. Pumps the crowds.",
   },
   {
     Auth_img: img3,
-    Auth_Name: "Mysterious Dev",
-    Auth_cat: "GameDev / Engineering",
-    Auth_about: "Master Coder. AI/ML Expert. Privacy Advocate.",
+    Auth_Name: "Pissed Picasso",
+    Auth_cat: "Developer",
+    Auth_about: "Website builder. Candy Machine creator. ",
   },
 ]

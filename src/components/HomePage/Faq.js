@@ -7,139 +7,103 @@ const RoadMap = () => {
 
       <div className="">
         <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
-          How do I get a Pesky Penguin?
+          **What are Klipart Klassix NFTs?**
         </h3>
         <div className="mt-2">
           <p className="my-2">
-            Our initial mint is over, but that doesn't mean you can't get a
-            Pesky Penguin! Penguin lovers like you are trading their noots on
-            the open market.
+            They are a collection of 850, non-generative art NFTs on Solana.
+            Non-generative means that they are all composited by hand rather
+            than by a computer algorithm.
           </p>
           <p className="my-2">
-            Head to one of these marketplaces to pick up a Pesky Penguin of your
-            very own:
-          </p>
-          <p className="my-2">
-            <ul className="list-inside ml-4">
-              <li className="list-disc">
-                <a
-                  style={{ color: "#e2be6f" }}
-                  href="https://www.magiceden.io/marketplace?collection_symbol=pesky_penguins"
-                  className="text-sky-600 hover:text-sky-700 cursor-pointer font-semibold"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Magic Eden
-                </a>
-              </li>
-              <li className="list-disc">
-                <a
-                  style={{ color: "#e2be6f" }}
-                  href="https://digitaleyes.market/collections/Pesky%20Penguins"
-                  className="text-sky-600 hover:text-sky-700 cursor-pointer font-semibold"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  DigitalEyes
-                </a>
-              </li>
-              <li className="list-disc">
-                <a
-                  style={{ color: "#e2be6f" }}
-                  href="https://alpha.art/collection/pesky-penguins"
-                  className="text-sky-600 hover:text-sky-700 cursor-pointer font-semibold"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Alpha Art
-                </a>
-              </li>
-              <li className="list-disc">
-                <a
-                  style={{ color: "#e2be6f" }}
-                  href="https://ftx.us/nfts/issuer/Pesky%20Penguins"
-                  className="text-sky-600 hover:text-sky-700 cursor-pointer font-semibold"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  FTX
-                </a>
-              </li>
-            </ul>
+            In total there are around 100 recreated classic pieces of art, with
+            between 3-9 variants of each piece. We want to take classical art –
+            and give it an NFT inspired makeover.
           </p>
         </div>
       </div>
       <div className="flex flex-col my-4 w-full ">
         <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
-          How many Pesky Penguins are there?
+          **Who is the artist behind Klipart Klassix?**
         </h3>
         <div className="mt-2">
           <p className="my-2">
-            There were 8888 Pesky Penguins when our initial mint completed.
-            Since then, the Snowball has started rolling, and some Penguins are
-            no longer with us 😔
-          </p>
-          <p className="my-2">
-            <p>
-              To remember our fallen bretheren, head on over to our{" "}
-              <span className="text-sky-700 cursor-pointer" href="/graveyard">
-                Graveyard
-              </span>{" "}
-              page.
-            </p>
+            Each piece was hand-drawn by our resident artist Woof Original
+            (@WoofOriginal). He is a graffiti artist by trade, starting out by
+            tagging trains and painting murals in the streets of London’s East
+            End, before now travelling around the world and making art his full
+            time profession. This launch will be Woof Original’s first NFT
+            collection.
           </p>
         </div>
       </div>
       <div className="flex flex-col my-4 w-full ">
         <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
-          How does The Snowball work?
+          **What happens if someone collects a full collection?**
         </h3>
         <div className="mt-2">
           <p className="my-2">
-            The Snowball is the account with which the Pesky Penguins Candy
-            Machine is signed. It has the authority to burn any Penguins it
-            owns.
-          </p>
-          <p className="my-2">
-            Periodically, we will head over to verified marketplaces and "sweep
-            the floor" (buy the cheapest penguins available) using the Snowball
-            account.
-          </p>
-          <p className="my-2">
-            <p>
-              Every penguin The Snowball takes posession of will be burned,
-              taking it out of circulation. To see which noots have been removed
-              from the total supply, visit our{" "}
-              <span className="text-sky-700 cursor-pointer" href="/graveyard">
-                Graveyard
-              </span>{" "}
-              page.
-            </p>
+            A collection constitutes the original artwork and all of its
+            variants. For those who manage to collect a full collection in a
+            single wallet before the end of June 2022, Woof Original will hand
+            paint a personalised version of the artwork and send it to you in
+            real life. His recent collections sold at galleries have fetched
+            between $2-10k.
           </p>
         </div>
       </div>
       <div className="flex flex-col my-4 w-full ">
         <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
-          Is there an aftermarket sales royalty?
+          **When is the launch?**
         </h3>
         <div className="mt-2">
           <p className="my-2">
-            Yes; royalties enable The Snowball! Every Pesky Penguin traded on
-            the open market is subject to a 5% royalty, which is divided as
-            follows:
+            *Tentatively* February 25th assuming artwork is finalised by then.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col my-4 w-full ">
+        <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
+          **How much will mint price be?**
+        </h3>
+        <div className="mt-2">
+          <p className="my-2">
+            Mint price is currently planned to be 0.5 SOL, to be confirmed prior
+            to launch.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col my-4 w-full ">
+        <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
+          **How do I get one?**
+        </h3>
+        <div className="mt-2">
+          <p className="my-2">
+            The majority of the mint will be via a whitelist, and limited to
+            2-per-wallet. This is in an effort to prevent the inevitable
+            botting. Any NFTs not sold during whitelist will then be sold during
+            a public sale shortly after the Whitelist period ends.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col my-4 w-full ">
+        <h3 className="font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
+          **How do I get whitelisted?**
+        </h3>
+        <div className="mt-2">
+          <p className="my-2">
+            There's a number of different ways to get whitelisted, including but
+            not limited to:
           </p>
           <p className="my-2">
             <ul className="list-inside">
-              <li className="list-disc">2% to The Snowball</li>
-              <li className="list-disc">3% to the dev team</li>
+              <li className="list-disc">- Discord OGs.</li>
+              <li className="list-disc">- Discord giveaways.</li>
+              <li className="list-disc">- Twitter giveaways.</li>
+              <li className="list-disc">
+                - Extraordinary contributions to the community
+              </li>
             </ul>
-          </p>
-          <p>
-            The dev team royalties are used to cover recurring fees such as web
-            hosting and domain registration, to cover income tax for both the
-            Snowball and team wallets, and are used to support the ongoing
-            development of the project. Snowball funds are used ONLY for
-            reducing the overall supply of Penguins.
           </p>
         </div>
       </div>

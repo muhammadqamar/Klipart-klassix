@@ -12,13 +12,9 @@ const Team = () => {
             <div className="card">
               <img className="card-img" src={item.Auth_img} alt="klipart" />
               <div className="card-detail">
-                <h4 className="card-name">{item.Auth_Name}</h4>
-                <h6 className="card-cat">{item.Auth_cat}</h6>
-                <p className="about">
-                  Runs the Discord. Runs the Twitter. Runs the contests. Writes
-                  the Lore. Draws Island Boiz pengus and posts them online
-                  (sorry not sorry).
-                </p>
+                <h3 className="card-name">{item.Auth_Name}</h3>
+                <p className="card-cat">{item.Auth_cat}</p>
+                <p className="about">{item.Auth_about}</p>
               </div>
             </div>
           )
