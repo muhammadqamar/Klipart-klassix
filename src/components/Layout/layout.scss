@@ -32,15 +32,18 @@ h6 {
       line-height: 28px;
       font-weight: bold;
       color: #e2be6f;
+      padding: 20px 25px 10px;
       &:hover {
-        color: #e2be6f;
+        color: #ccc;
+        text-decoration: underline;
       }
       &:focus {
         color: #e2be6f;
       }
     }
     .nav-link.active {
-      color: #e2be6f;
+      color: #ccc;
+      text-decoration: underline;
     }
   }
 }
@@ -66,13 +69,13 @@ h6 {
   line-height: 24px;
 }
 
-.faqs {
+.main-heading {
   font-family: "Sedgwick Ave", cursive;
   font-size: 48px;
   line-height: 48px;
   font-weight: bold;
   color: #ccc;
-  margin: 84px auto 30px;
+  margin: 100px auto 60px;
   text-align: center;
 }
 
@@ -116,8 +119,16 @@ h6 {
 .img-gif {
   img {
     margin: 0 auto;
-    display:block;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
 
-    height:auto
+.spacing-cont {
+  padding: 0 120px;
+
+  @media (max-width: 768px) {
+    padding: 0 20px;
   }
 }
