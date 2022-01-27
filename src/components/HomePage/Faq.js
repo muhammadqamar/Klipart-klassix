@@ -28,12 +28,19 @@ const RoadMap = () => {
         </h3>
         <div className="mt-2">
           <p className="my-2">
-            Each piece was hand-drawn by our resident artist Woof Original
-            (@WoofOriginal). He is a graffiti artist by trade, starting out by
-            tagging trains and painting murals in the streets of London’s East
-            End, before now travelling around the world and making art his full
-            time profession. This launch will be Woof Original’s first NFT
-            collection.
+            Each piece was hand-drawn by our resident artist Woof Original (
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.instagram.com/wooforiginal"
+              style={{ color: "#e2be6f", fontWeight: "bold" }}
+            >
+              @WoofOriginal
+            </a>
+            ) . He is a graffiti artist by trade, starting out by tagging trains
+            and painting murals in the streets of London’s East End, before now
+            travelling around the world and making art his full time profession.
+            This launch will be Woof Original’s first NFT collection.
           </p>
         </div>
       </div>
@@ -95,7 +102,7 @@ const RoadMap = () => {
             There's a number of different ways to get whitelisted, including but
             not limited to:
           </p>
-          <p className="my-2">
+          <div className="my-2">
             <ul className="list-inside">
               <li className="list-disc">- Discord OGs.</li>
               <li className="list-disc">- Discord giveaways.</li>
@@ -104,7 +111,7 @@ const RoadMap = () => {
                 - Extraordinary contributions to the community
               </li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ export const cards = [
   {
     Auth_img: img3,
     Auth_Name: "Pissed Picasso",
-    Auth_cat: "Developer",
+    Auth_cat: "Developer, Trouble shooter (and finder)",
     Auth_about: "Website builder. Candy Machine creator. ",
   },
 ]

@@ -1,5 +1,5 @@
 import React from "react"
-import { Accordion, Item, Header } from "react-bootstrap"
+import { Accordion } from "react-bootstrap"
 
 const Faq = () => {
   return (
@@ -15,10 +15,10 @@ const Faq = () => {
             <h4>December 2021 </h4>
           </Accordion.Header>
           <Accordion.Body>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul>
-                <li class="px-2">Create the Klipart Klassix collection</li>
-                <li class="px-2">Create Discord and Twitter accounts</li>
+                <li className="px-2">Create the Klipart Klassix collection</li>
+                <li className="px-2">Create Discord and Twitter accounts</li>
               </ul>
             </div>
           </Accordion.Body>
@@ -28,11 +28,11 @@ const Faq = () => {
             <h4>January 2022</h4>
           </Accordion.Header>
           <Accordion.Body>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul>
-                <li class="px-2">Klipart Klassix website launch</li>
-                <li class="px-2">Reveal Roadmap</li>
-                <li class="px-2">Start marketing campaign</li>
+                <li className="px-2">Klipart Klassix website launch</li>
+                <li className="px-2">Reveal Roadmap</li>
+                <li className="px-2">Start marketing campaign</li>
               </ul>
             </div>
           </Accordion.Body>
@@ -42,19 +42,23 @@ const Faq = () => {
             <h4>February 2022</h4>
           </Accordion.Header>
           <Accordion.Body>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul>
-                <li class="px-2">Ramp up marketing on Discord and Twitter</li>
-                <li class="px-2">Secure final list of Whitelist addresses</li>
-                <li class="px-2">
+                <li className="px-2">
+                  Ramp up marketing on Discord and Twitter
+                </li>
+                <li className="px-2">
+                  Secure final list of Whitelist addresses
+                </li>
+                <li className="px-2">
                   Add Traits and finalised Klipart Klassix NFTs to Candy Machine
                 </li>
-                <li class="px-2">LAUNCH!</li>
-                <li class="px-2">
+                <li className="px-2">LAUNCH!</li>
+                <li className="px-2">
                   Get verified on marketplaces (Magic Eden being primary
                   exchange)
                 </li>
-                <li class="px-2">
+                <li className="px-2">
                   Confirm official rarities with Moonrank / Howrare
                 </li>
               </ul>
@@ -66,13 +70,13 @@ const Faq = () => {
             <h4>March 2022</h4>
           </Accordion.Header>
           <Accordion.Body>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul>
-                <li class="px-2">
+                <li className="px-2">
                   Implement Discord verification of Klipart Klassix holders
                 </li>
-                <li class="px-2">Launch giveaways!</li>
-                <li class="px-2">Floor sniping giveaways!</li>
+                <li className="px-2">Launch giveaways!</li>
+                <li className="px-2">Floor sniping giveaways!</li>
               </ul>
             </div>
           </Accordion.Body>
@@ -82,9 +86,9 @@ const Faq = () => {
             <h4>Q2 2022</h4>
           </Accordion.Header>
           <Accordion.Body>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul>
-                <li class="px-2">
+                <li className="px-2">
                   Complete and send out physical artwork for anyone who collects
                   a full collection of Klipart Klassix NFTs before the end of
                   June 2022.

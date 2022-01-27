@@ -9,7 +9,7 @@ const Team = () => {
       <div className="team-card">
         {cards.map(item => {
           return (
-            <div className="card">
+            <div key={item.Auth_Name} className="card">
               <img className="card-img" src={item.Auth_img} alt="klipart" />
               <div className="card-detail">
                 <h3 className="card-name">{item.Auth_Name}</h3>
