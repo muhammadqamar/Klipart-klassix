@@ -32,6 +32,12 @@ h6 {
   margin: auto;
 }
 
+.header-space {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
 // top navbar
 .navbar-light {
   .navbar-nav {
@@ -58,6 +64,19 @@ h6 {
     .nav-link.active {
       color: #ccc;
       text-decoration: underline;
+    }
+  }
+}
+.social-media-icon {
+  .Dis-icon {
+    img {
+      width: 38px;
+      margin-right: 25px;
+    }
+  }
+  .Twi-icon {
+    img {
+      width: 35px;
     }
   }
 }
@@ -138,10 +157,16 @@ h6 {
   -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
-// .footer {
-//   max-width: 1024px;
-//   margin: auto;
-// }
+
+.footer {
+  text-align: center;
+  padding: 25px 0;
+  border-top: 1px solid #e2be6f;
+
+  @media (max-width: 768px) {
+    padding: 15px 0;
+  }
+}
 
 .img-gif {
   img {
@@ -202,10 +227,11 @@ h6 {
     }
 
     .video {
-      width: 100%;
+      width: 95%;
       height: 100%;
 
       @media (max-width: 768px) {
+        width: 100%;
         height: auto;
       }
     }
